@@ -1,0 +1,5 @@
+\begin{def}
+  name: string "namae"
+  weight: float [kg] "taijyu"
+  height: float [m]  "shintyou"
+\end{def}

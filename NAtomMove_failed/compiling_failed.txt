@@ -1,0 +1,3 @@
+
+Linux shell or WSL on Windows10 (failed)
+g++ udftest1.cpp -I/mnt/c/OCTA8.4/GOURMET/include -L/mnt/c/OCTA8.4/GOURMET/lib/win64/libplatform.lib

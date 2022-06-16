@@ -1,0 +1,21 @@
+\begin{def}
+  N: int "number of particles in the system"
+  L: double [m] "cell imension"
+  maxstep: int "step to finish calculation"
+  dt: double [s] "delta t for time integration"
+  E: double [J] "total energy"
+  time: double [s] "total time"
+  class Vector3d: {x:double [unit], y:double [unit], z:double [unit]}
+  class Atom:{
+    r:Vector3d [m] "position of particle",
+    v:Vector3d [m/s] "velocity of particle"
+  }
+  Atoms[]: Atom
+\end{def}
+
+\begin{data}
+  N: 10
+  L: 10.0
+  maxstep: 10000
+  dt: 1.0e-3
+\end{data}
