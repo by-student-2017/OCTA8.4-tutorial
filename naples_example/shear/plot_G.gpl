@@ -1,0 +1,26 @@
+#!/usr/bin/gnuplot
+
+#set logscale
+
+set logscale x
+#set xrange[1e-4:1e1]
+set format x "10^{%L}"
+
+set logscale y
+#set yrange[1e-4:1e1]
+set format y "10^{%L}"
+
+set xlabel "{/Italic t}"
+set ylabel "{/ItalicG(t,{/Symbol g})}"
+
+set key left bottom
+set key box linestyle 1 lc "black"
+
+plot "g12corr" w l lc "black" t "raw data", \
+     "g12tsm" w p t "smoothed data"
+
+pause -1
+
+set terminal png truecolor enhanced
+set out "plot_G.png"
+replot

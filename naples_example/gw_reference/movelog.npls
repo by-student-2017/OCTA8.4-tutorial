@@ -1,0 +1,606 @@
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: tmp.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [tmp.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [tmp.npls] is not registered or an adequate compile option key is not activated.
+Main calculation started.====================================== 0
+EQUILIBRIUM_CALC
+Duration:109.257544  (in CPU:0.000000) Threads:6 1000
+ENDS 1000
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_1.000000.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_1.000000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_1.000000.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_1.000000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_1.000000.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:1.798200  (in CPU:0.000000) Threads:6 12
+ENDS 12
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.630957.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.630957.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.630957.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.630957.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.630957.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:4.064703  (in CPU:0.000000) Threads:6 19
+ENDS 19
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.398107.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.398107.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.398107.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.398107.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.398107.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:5.433928  (in CPU:0.000000) Threads:6 31
+ENDS 31
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.251189.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.251189.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.251189.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.251189.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.251189.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:6.368310  (in CPU:0.000000) Threads:6 50
+ENDS 50
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.158489.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.158489.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.158489.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.158489.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.158489.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:9.583906  (in CPU:0.000000) Threads:6 79
+ENDS 79
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.100000.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.100000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.100000.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.100000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.100000.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:14.905792  (in CPU:0.000000) Threads:6 125
+ENDS 125
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.063096.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.063096.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.063096.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.063096.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.063096.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:24.797404  (in CPU:0.000000) Threads:6 199
+ENDS 199
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.039811.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.039811.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.039811.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.039811.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.039811.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:37.544746  (in CPU:0.000000) Threads:6 315
+ENDS 315
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.025119.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.025119.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.025119.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.025119.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.025119.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:60.220592  (in CPU:0.000000) Threads:6 500
+ENDS 500
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.015849.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.015849.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.015849.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.015849.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.015849.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:90.692951  (in CPU:0.000000) Threads:6 792
+ENDS 792
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.010000.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.010000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.010000.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.010000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.010000.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:142.155405  (in CPU:0.000000) Threads:6 1256
+ENDS 1256
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.006310.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.006310.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.006310.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.006310.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.006310.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:224.047899  (in CPU:0.000000) Threads:6 1991
+ENDS 1991
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.003981.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.003981.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.003981.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.003981.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.003981.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:363.548543  (in CPU:0.000000) Threads:6 3156
+ENDS 3156
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.002512.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.002512.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.002512.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.002512.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.002512.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:574.605421  (in CPU:0.000000) Threads:6 5002
+ENDS 5002
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.001585.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.001585.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.001585.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.001585.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.001585.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:900.573553  (in CPU:0.000000) Threads:6 7928
+ENDS 7928
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA.exe 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input_0.001000.npls
+
+Threads:6
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.001000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.001000.npls] is not registered or an adequate compile option key is not activated.
+Description [dreptation_interval_for_chemical01] in the input data file [input_0.001000.npls] is not registered or an adequate compile option key is not activated.
+Description [reptation_interval_for_chemical1] in the input data file [input_0.001000.npls] is not registered or an adequate compile option key is not activated.
+Calculation is restarted by configuration in finalconfeq.npls from 1000.010000 0
+RESTART with a saved configuration file.====================================== 0
+DYNAMIC_SHEAR_CALC
+Dynamic shear mode forces time step to be reset to zero.
+Restarted calculation is skipping the thermalization defined by pre_reptation_step.
+Flow has been being applied. 0
+Duration:1413.229951  (in CPU:0.000000) Threads:6 12566
+ENDS 12566

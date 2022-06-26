@@ -1,0 +1,28 @@
+#!/usr/bin/gnuplot
+
+#set logscale
+
+set logscale x
+#set xrange[1e-4:1e1]
+set format x "10^{%L}"
+
+set logscale y
+#set yrange[1e-4:1e1]
+set format y "10^{%L}"
+
+set ylabel "G' G''"
+set xlabel "Frequency"
+
+set key left top
+set key box linestyle 1 lc "black"
+
+plot "gwdirect.npls" u 1:2 w lp pt 7 lc "red" t "G'", \
+     "gwdirect.npls" u 1:3 w lp pt 7 lc "royalblue" t "G''", \
+     "gwdirectsm.npls" u 1:2 w p pt 7 lc "black" t " G' (smoothed data)", \
+     "gwdirectsm.npls" u 1:3 w p pt 7 lc "yellow" t " G'' (smoothed data)"
+
+pause -1
+
+set terminal png truecolor enhanced
+set out "plot_gwdirect.png"
+replot

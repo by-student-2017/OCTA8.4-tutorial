@@ -1,0 +1,28 @@
+#### NAPLES input data converted by naples_input_converter.
+####  generated from:input_dynamic_shear_for_gw.udf
+####  generated date:Sun Jun 26 12:06:19 2022
+
+calculation_mode=new
+chemical_component_number=1
+component_number=1
+fraction1=1
+molecule_spec1=linear
+chemical_spec_for_component1=1
+Z1=10
+#--- USimulation_Conditions 
+seed=845
+cell_size=8
+C=10
+p2=0.01
+quit_dynamics_count=4000
+pre_reptation_step=100
+flow_type=dynamic_shear
+chain_av_flag=0
+measure_flag=1
+snapshot_save_flag=0
+free_end_stat_flag=0
+#--- USimulation_Conditions_dynamic_shear 
+strain_ampritude=0.25
+strain_omega=0
+dynamic_strain_cycle=5
+

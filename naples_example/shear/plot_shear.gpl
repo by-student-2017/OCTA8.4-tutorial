@@ -1,0 +1,26 @@
+#!/usr/bin/gnuplot
+
+#set logscale
+
+set logscale x
+#set xrange[1e-4:1e1]
+set format x "10^{%L}"
+
+set logscale y
+#set yrange[1e-4:1e1]
+set format y "10^{%L}"
+
+set xlabel "Time"
+set ylabel "Shear stress"
+
+set key left bottom
+set key box linestyle 1 lc "black"
+
+plot "ts12" w l lc "rad" t "raw data", \
+     "ts12sm" w p pt 7 t "smoothed data"
+
+pause -1
+
+set terminal png truecolor enhanced
+set out "plot_shear.png"
+replot
