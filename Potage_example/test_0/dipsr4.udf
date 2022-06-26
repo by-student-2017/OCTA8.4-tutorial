@@ -1,0 +1,113 @@
+\begin{header}
+\begin{def}
+EngineType:string;
+EngineVersion:string;
+IOType:string;
+ProjectName:string;
+Comment:string;
+\end{def}
+\begin{def}
+Action:string
+\end{def}
+\begin{data}
+EngineType:"POTAGE"
+EngineVersion:"200106"
+IOType:"IN"
+ProjectName:"WG2"
+Comment:"---"
+Action:"potage4_run.act"
+\end{data}
+\end{header}
+
+\begin{def}
+class MeshForRPA:{
+    mesh_width:double
+    num_mesh:int
+}
+class Block:{
+    monomer_name:string
+    number_of_monomer:double
+	radius_of_segment_as_particle:double
+	dr_of_segment_as_particle:double
+}
+class JunctionPair:{
+    first:int
+    second:int
+}
+class Polymer:{
+    type:select {"HOMO","BLOCK","COMB","STAR","GENERAL" }
+    blocks[]:Block
+    junction_pairs[]:JunctionPair
+}
+class ChiParameter:{
+    name_i:string
+    name_j:string
+    parameter:double
+}
+class PDDataForRPA:{
+    polymer1:Polymer
+    polymer2:Polymer
+    polymer3:Polymer
+    chi_parameters[]:ChiParameter
+}
+class PDData:{
+    n1:double     "Number of agent 1 segment"
+    n2:double     "Number of agent 2 segment"
+    n3:double     "Number of agent 3 segment"
+    chi12:double  "Chi parameter between segment agent 1 and 2"
+    chi13:double  "Chi parameter between segment agent 1 and 3"
+    chi23:double  "Chi parameter between segment agent 2 and 3"
+    chi11:double  "Chi parameter between segment agent 1 and 1"
+    chi22:double  "Chi parameter between segment agent 2 and 2"
+    chi33:double  "Chi parameter between segment agent 3 and 3"
+}
+class ControlParameter: {
+    num_dev:int       "Divide number of axis"
+    error_sp:double   "Max error of convergence for spinodal points"
+    error_cr:double   "Max error of convergence for critical points"
+    error_bi:double   "Max error of convergence for binodal  points"
+    max_iter:int      "Max number of iteration to solve the calculation"
+    num_dev_bi:int    "Divide number of binodal"
+}
+class Recipe: {
+    phi1: double
+    phi2: double
+}
+POTAGEInput:{
+
+    name1:string  "Name of agent 1"
+    name2:string  "Name of agent 2"
+    name3:string  "Name of agent 3"
+    
+    pd_data[]:PDData
+
+    recipe:Recipe
+
+    meshForRPA:MeshForRPA
+    pd_data_for_RPA[]:PDDataForRPA
+
+    control_parameters:ControlParameter
+
+}
+\end{def}
+
+\begin{data}
+POTAGEInput:{
+ "A10",
+ "A10",
+ "C1_R2",
+ []
+ {0.450000000000000,0.450000000000000}
+ {0.50000000000000,64}
+ [
+  {{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"C",1.,2.,0.25}][]}[{"A","C",1.00}]}
+  {{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"C",1.,2.,0.25}][]}[{"A","C",1.10}]}
+  {{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"C",1.,2.,0.25}][]}[{"A","C",1.20}]}
+  {{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"C",1.,2.,0.25}][]}[{"A","C",1.30}]}
+  {{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"C",1.,2.,0.25}][]}[{"A","C",1.40}]}
+  {{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"C",1.,2.,0.25}][]}[{"A","C",1.50}]}
+  {{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"A",10.,0.,0.}][]}{"HOMO",[{"C",1.,2.,0.25}][]}[{"A","C",1.60}]}
+ ]
+ {400,1.e-12,1.e-12,1.e-12,300,40}
+}
+\end{data}
