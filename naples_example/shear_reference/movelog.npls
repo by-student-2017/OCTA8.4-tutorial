@@ -1,0 +1,30 @@
+NAPLES: PUBLIC VERSION
+
+-------------------------
+ Binary: naplesOCTA 
+ Version: NAPLESrev01042020 
+ Compiled at May 13 2020 10:42:51 
+ Parameter: input
+
+Threads:4
+Activated compile option keys:-------------
+PUBLIC 
+FENE_P
+CONSTANT_CHAIN_FRICTION
+NEIGHBOR_LIST
+BRANCH_REPTATION
+GEL
+BLEND
+DIELECTRIC_FORCE
+INCOMPRESS
+CUT_OFF_DENSITY
+BLOCK_COPOLYMERS
+DYNAMIC_ELECTRIC
+-------------(end of the keys)
+Initialization started.====================================
+Main calculation started.====================================== 0
+SINGLE_STEP_CALC
+PRE_RUN for 100 before flow/deformation. 
+STEP_FLOW_APPLIED 0
+Duration:1071.852684  (in CPU:0.000000) Threads:4 4000
+ENDS 4000

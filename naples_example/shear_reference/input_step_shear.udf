@@ -1,0 +1,247 @@
+//----------------------------------
+// NAPLES INPUT UDF FOR OCTA
+//   Copyright (c) 2002-2006
+//   JRI-Solutions, Limited.
+// create at 2007.01.22 by H.Yoshida
+// Updated: output attribute name 2007.07.30 by Y.Nishio
+//
+//  $Id: naples11.udf 3612 2007-08-02 12:54:52Z yoshida $
+//----------------------------------
+
+//============================================================================
+// HEADER PART
+//----------------------------------------------------------------------------
+\begin{header}
+\begin{def}
+	EngineType:		string;
+	EngineVersion:	string;
+	IOType:			string;
+	ProjectName:	string;
+	Comment:		string;
+	Action:			string;
+\end{def}
+\begin{data}
+	EngineType:		"NAPLES"
+	EngineVersion:	"11"
+	IOType:			"IN"
+	ProjectName:	"Test"
+	Comment:		""
+	Action:			"naples_octa.act"
+\end{data}
+\end{header}
+
+\begin{unit}
+[dyne]	=	10^-5[N]
+[Pa]	=	1[N/m^2]
+\end{unit}
+
+//============================================================================
+// NAPLES INPUT UDF DEFINITION 
+//============================================================================
+\begin{def}
+
+//========================
+// DATA
+//========================
+
+//-------------------------
+// Chemical_Component
+//-------------------------
+Chemical_Component[]: {
+	Name		: string		""
+	Id			: int 			""
+	G0			: double[Pa]	""
+	G_nap		: double 		""
+	Me_nap		: double[g/mol] ""
+	tau_d		: double[s] 	""
+	tau_e		: double[s] 	""
+	chi12						: double ""
+	bond_ratio_for_chemical		: double ""
+	friction_ratio_for_chemical	: double ""
+};
+
+//-------------------------
+// Component
+//-------------------------
+Component[]: {
+	fraction		: double ""
+	molecule_spec	: select{
+						"linear",
+						"star",
+						"astar",
+						"pompom",
+						"comb",
+						"diblock",
+						"triblock"
+						} "Spec of Molecular"
+	linear	: {
+		chemical_spec_for_component	: int ""
+		Z							: int ""
+	}
+	star	: {
+		chemical_spec_for_component	: int ""
+		armZ						: int ""
+		arm_per_junction			: int ""
+	}
+	astar	: {
+		chemical_spec_for_arm1_of_component	: int ""
+		arm1Z						: int ""
+		arm1_per_junction			: int ""
+		chemical_spec_for_arm2_of_component	: int ""
+		arm2Z						: int ""
+		arm2_per_junction			: int ""
+	}
+	pompom	: {
+		chemical_spec_for_component	: int ""
+		bridgeZ						: int ""
+		chemical_spec_for_arm_of_component	: int ""
+		armZ						: int ""
+		arm_per_junction			: int ""
+	}
+	comb	: {
+		chemical_spec_for_component	: int ""
+		bridgeZ						: int ""
+		chemical_spec_for_arm_of_component	: int ""
+		armZ						: int ""
+		arm_per_junction			: int ""
+		junction_number				: int ""
+	}
+	diblock	: {
+		chemical_id_for_block1_	: int ""
+		block1Z					: int ""
+		chemical_id_for_block2_	: int ""
+		block2Z					: int ""
+		block_ratio1_			: double ""
+	}
+	triblock	: {
+		chemical_id_for_block1_	: int ""
+		block1Z					: int ""
+		chemical_id_for_block2_	: int ""
+		block2Z					: int ""
+		chemical_id_for_block3_	: int ""
+		block3Z					: int ""
+		block_ratio1_			: double ""
+		block_ratio2_			: double ""
+	}
+};
+
+//-------------------------
+// Simulation_Conditions
+//-------------------------
+Simulation_Conditions: {
+	seed				: int ""
+	cell_size			: double ""
+	C					: int ""
+	p2					: double ""
+	quit_dynamics_count	: int ""
+	pre_reptation_step	: int ""
+	flow_type			: select{
+							"equilibrium",
+							"step_shear",
+							"uniaxal_step",
+							"biaxal_step",
+							"planar_step",
+							"start_up_shear",
+							"uniaxal",
+							"biaxal",
+							"planar",
+							"dynamic_shear",
+							"gelation"
+							} ""
+	step_shear	: {
+		initial_strain	: double ""
+	}
+	uniaxal_step	: {
+		initial_strain	: double ""
+	}
+	biaxal_step	: {
+		initial_strain	: double ""
+	}
+	planar_step	: {
+		initial_strain	: double ""
+	}
+	start_up_shear	: {
+		strain_rate	: double ""
+	}
+	uniaxal	: {
+		strain_rate	: double ""
+	}
+	biaxal	: {
+		strain_rate	: double ""
+	}
+	planar	: {
+		strain_rate	: double ""
+	}
+	dynamic_shear	: {
+		strain_ampritude		: double ""
+		strain_omega			: double ""
+		dynamic_strain_cycle	: double ""
+	}
+	gelation	: {
+		crosslink_mode		: select{
+								"none",
+								"random"
+								} ""
+		crosslink_fraction	: double ""
+		crosslink_chem		: int ""
+	}
+	chain_av_flag		: int ""
+	measure_flag		: int ""
+	snapshot_save_flag	: int ""
+	free_end_stat_flag	: int ""
+};
+
+//-------------------------
+// Simulation_Parameters
+//-------------------------
+Simulation_Parameters: {
+	restart_flag	: int "new:0 restart:1 deform:2"
+	simulation_type	: select{
+						"normal",
+						"frequency_scan"
+						} "unused"
+	frequency_scan	: {
+		wmin	: double "unused"
+		wmax	: double "unused"
+		div		: int "unused"
+	} "unused"
+};
+
+//-------------------------
+// output
+//-------------------------
+Output: {
+	movelog_out : string
+	prmcheck_out : string
+	measure_out : string
+	stat_out : string
+	finalconf_out : string
+	config_out : string
+	bistress_out : string
+	bistress_smooth_out : string
+	plstress_out : string
+	plstress_smooth_out : string
+	shearstress_out : string
+	shearstress_smooth_out : string
+	unistress_out : string
+	unistress_smooth_out : string
+	gt_out : string
+	gt_smooth_out : string
+	et_out : string
+	et_smooth_out : string
+	gw_out : string
+	gw_smooth_out : string
+	gwdirect_out : string
+	tailNdist_out : string
+	tailZdist_out : string
+}
+
+\end{def}
+
+\begin{data}
+Chemical_Component[]:[{"chemical_A",1,2600000.00000000,4160000.00000000,647.150000000000,0.20000000000000,2.00950914520766e-002,0.0,0.0,0.0}]
+Component[]:[{1.00000000000000,"linear",{1,10}{1,0,3}{1,0,3,1,0,3}{1,0,1,0,3}{1,0,1,0,3,3}{1,0,1,0,0.0}{1,0,1,0,1,0,0.0,0.0}}]
+Simulation_Conditions:{845,8.00000000000000,10,1.00000000000000e-002,4000,100,"step_shear",{1.00000000000000}{1.00000000000000}{1.00000000000000}{1.00000000000000}{0.0}{0.0}{0.0}{0.0}{0.25000000000000,0.0,5.00000000000000}{"random",0.10000000000000,1}0,1,0,0}
+Simulation_Parameters:{0,"normal",{1.00000000000000e-002,1.00000000000000,10}}
+Output:{"","","","","","","","","","","","","","","","","","","","","","",""}
+\end{data}

@@ -10,17 +10,17 @@ set logscale y
 #set yrange[1e-4:1e1]
 set format y "10^{%L}"
 
-set xlabel "Time"
-set ylabel "Shear stress"
+set xlabel "{/Italic t}"
+set ylabel "{/ItalicG(t,{/Symbol g})}"
 
 set key left bottom
 set key box linestyle 1 lc "black"
 
-plot "ts12" w l lc "red" t "raw data", \
-     "ts12sm" w p pt 7 t "smoothed data"
+plot "g12corr" w l lc "black" t "raw data", \
+     "g12tsm" w p t "smoothed data"
 
 pause -1
 
 set terminal png truecolor enhanced
-set out "plot_shear.png"
+set out "plot_G.png"
 replot

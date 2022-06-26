@@ -1,0 +1,15 @@
+#!/usr/bin/gnuplot
+
+set logscale
+
+set ylabel "linear stress growth function É≈{^+}(t)"
+
+set xlabel "t"
+
+plot "g12e" w l t "raw data", "g12esm" w p t "smoothed data"
+
+pause -1
+
+set terminal png truecolor enhanced
+set out "plot_growth.png"
+replot
